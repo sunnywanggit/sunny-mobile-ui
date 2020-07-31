@@ -1,0 +1,157 @@
+<template>
+    <text
+            :class="[name]"
+            :style="{ fontSize, color }"
+    >
+    </text>
+</template>
+
+<script>
+    import {isNumber} from '../../util/util';
+
+    export default {
+        name:'SunnyIcon',
+        props: {
+            name: String,
+            size: [String, Number],
+            color: String
+        },
+
+        computed: {
+            fontSize() {
+                return isNumber(this.size) ? `${this.size}rpx` : this.size;
+            }
+        }
+    };
+</script>
+<style lang="scss">
+    @font-face {
+        font-family: "s-iconfont"; /* project id 1725188 */
+        src: url("https://at.alicdn.com/t/font_1725188_ncczlm1cqtf.eot");
+        src: url("https://at.alicdn.com/t/font_1725188_ncczlm1cqtf.eot?#iefix")
+        format("embedded-opentype"),
+        url("https://at.alicdn.com/t/font_1725188_ncczlm1cqtf.woff2")
+        format("woff2"),
+        url("https://at.alicdn.com/t/font_1725188_ncczlm1cqtf.woff")
+        format("woff"),
+        url("https://at.alicdn.com/t/font_1725188_ncczlm1cqtf.ttf")
+        format("truetype"),
+        url("https://at.alicdn.com/t/font_1725188_ncczlm1cqtf.svg#iconfont")
+        format("svg");
+    }
+
+    [class*="s-icon-"] {
+        font-family: "s-iconfont";
+        font-size: inherit;
+        font-style: normal;
+    }
+
+    .s-icon-notification:before {
+        content: "\e808";
+    }
+
+    .s-icon-notification-fill:before {
+        content: "\e807";
+    }
+
+    .s-icon-info-fill:before {
+        content: "\e72a";
+    }
+
+    .s-icon-info:before {
+        content: "\e72b";
+    }
+
+    .s-icon-question-fill:before {
+        content: "\e72c";
+    }
+
+    .s-icon-question:before {
+        content: "\e72d";
+    }
+
+    .s-icon-arrow-bottom:before {
+        content: "\e661";
+    }
+
+    .s-icon-arrow-top:before {
+        content: "\e6de";
+    }
+
+    .s-icon-toast-waiting:before {
+        content: "\e62a";
+    }
+
+    .s-icon-toast-warning:before {
+        content: "\e62b";
+    }
+
+    .s-icon-avatar:before {
+        content: "\e6a2";
+    }
+
+    .s-icon-plus:before {
+        content: "\e809";
+    }
+
+    .s-icon-minus:before {
+        content: "\e80a";
+    }
+
+    .s-icon-image:before {
+        content: "\e604";
+    }
+
+    .s-icon-toast-success:before {
+        content: "\e642";
+    }
+
+    .s-icon-toast-error:before {
+        content: "\e644";
+    }
+
+    .s-icon-arrow-left:before {
+        content: "\e7ed";
+    }
+
+    .s-icon-arrow-right:before {
+        content: "\e806";
+    }
+
+    .s-icon-check:before {
+        content: "\e645";
+    }
+
+    .s-icon-close:before {
+        content: "\e646";
+    }
+
+    .s-icon-emoji:before {
+        content: "\e64a";
+    }
+
+    .s-icon-favor-fill:before {
+        content: "\e64b";
+    }
+
+    .s-icon-round-check-fill:before {
+        content: "\e656";
+    }
+
+    .s-icon-round-check:before {
+        content: "\e657";
+    }
+
+    .s-icon-round-close-fill:before {
+        content: "\e658";
+    }
+
+    .s-icon-round-close:before {
+        content: "\e659";
+    }
+
+    .s-icon-search:before {
+        content: "\e65c";
+    }
+
+</style>
