@@ -1,4 +1,10 @@
 {
-  "navigationBarTitleText": "uni-app",
-  "usingComponents": {}
+  "navigationBarTitleText": "SMUI",
+  "usingComponents": {
+    "sunny-row": "/components/SunnyRow/SunnyRow",
+    "sunny-list": "/components/SunnyList/SunnyList",
+    "sunny-icon": "/components/SunnyIcon/SunnyIcon",
+    "sunny-col": "/components/SunnyCol/Sunnycol",
+    "sunny-card": "/components/SunnyCard/SunnyCard"
+  }
 }

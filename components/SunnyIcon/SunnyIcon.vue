@@ -12,6 +12,7 @@
     export default {
         name:'SunnyIcon',
         props: {
+            /**/
             name: String,
             size: [String, Number],
             color: String

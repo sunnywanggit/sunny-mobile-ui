@@ -1,15 +1,13 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/avatar/avatar",
     "pages/icon/icon",
-    "pages/image/image",
-    "pages/card/card",
-    "pages/index/button",
-    "pages/index/index"
+    "pages/card/card"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },

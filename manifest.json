@@ -1,6 +1,6 @@
 {
     "name" : "sunnyUI",
-    "appid" : "__UNI__8A03F77",
+    "appid" : "wx1a23d4c037d3d1de",
     "description" : "",
     "versionName" : "1.0.0",
     "versionCode" : "100",
@@ -57,7 +57,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "wx1a23d4c037d3d1de",
         "setting" : {
             "urlCheck" : false
         },
@@ -72,7 +72,7 @@
     "mp-toutiao" : {
         "usingComponents" : true
     },
-    "uniStatistics": {  
+    "uniStatistics": {
         "enable": false
     }
 }
