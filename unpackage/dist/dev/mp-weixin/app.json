@@ -1,7 +1,6 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/avatar/avatar",
     "pages/icon/icon",
     "pages/card/card"
   ],
