@@ -18,6 +18,13 @@
                 <SunnyAvatar :src="url" :size="100"></SunnyAvatar>
             </SunnyRow>
         </SunnyCard>
+
+        <SunnyCard label="文字头像">
+            <SunnyRow type="flex">
+                <SunnyAvatar :size="70">sun</SunnyAvatar>
+                <SunnyAvatar :size="70" shape="square">sun</SunnyAvatar>
+            </SunnyRow>
+        </SunnyCard>
     </view>
 </template>
 

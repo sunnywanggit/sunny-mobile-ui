@@ -1,9 +1,13 @@
 <template>
     <view :class="['s-avatar', isShape]" :style="{ height, width }">
 
+        <slot v-if="!src">
+            <text  :style="{ fontSize }"></text>
+        </slot>
 
         <image
                 class="s-avatar__target"
+                v-else
                 :src="src"
         ></image>
     </view>
@@ -24,6 +28,7 @@
 
             width() { return this.size + 'rpx'; },
 
+            fontSize() { return this.size / 1.7 + 'rpx'; }
         },
     };
 </script>
