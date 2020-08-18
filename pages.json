@@ -1,6 +1,18 @@
 {
 	"pages": [
 		{
+			"path": "pages/avatar/avatar",
+			"style": {
+				"navigationBarTitleText": "avatar"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "SMUI"
+			}
+		},
+		{
 			"path": "pages/rate/rate",
 			"style": {
 				"navigationBarTitleText": "Rate"
@@ -14,12 +26,6 @@
 		},
 		{
 			"path": "pages/loading/loading",
-			"style": {
-				"navigationBarTitleText": "SMUI"
-			}
-		},
-		{
-			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "SMUI"
 			}
