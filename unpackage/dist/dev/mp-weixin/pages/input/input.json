@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Input",
+  "usingComponents": {
+    "sunny-input": "/components/SunnyInput/SunnyInput"
+  }
+}

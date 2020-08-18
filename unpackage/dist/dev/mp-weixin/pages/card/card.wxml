@@ -1,0 +1,1 @@
+<view class="_div data-v-0fad2997"><sunny-card vue-id="a4457a80-1" label="card" class="data-v-0fad2997" bind:__l="__l" vue-slots="{{['default']}}">this  is card</sunny-card></view>

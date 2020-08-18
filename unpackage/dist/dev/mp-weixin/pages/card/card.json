@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "card",
+  "usingComponents": {
+    "sunny-card": "/components/SunnyCard/SunnyCard"
+  }
+}

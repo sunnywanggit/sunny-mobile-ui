@@ -1,0 +1,14 @@
+.title {
+  font-weight: 500;
+  font-size: 26rpx;
+}
+.logo {
+  width: 200rpx;
+  height: 120rpx;
+}
+.s-row {
+  padding: 15rpx 0;
+  background-color: #f4f6f7;
+  background-color: transparent;
+}
+

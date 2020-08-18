@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Rate",
+  "usingComponents": {
+    "sunny-rate": "/components/SunnyRate/SunnyRate"
+  }
+}

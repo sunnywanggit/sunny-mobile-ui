@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "sunny-icon": "/components/SunnyIcon/SunnyIcon"
+  }
+}

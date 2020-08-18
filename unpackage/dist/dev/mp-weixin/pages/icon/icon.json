@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "icon",
+  "usingComponents": {
+    "sunny-card": "/components/SunnyCard/SunnyCard",
+    "sunny-row": "/components/SunnyRow/SunnyRow",
+    "sunny-icon": "/components/SunnyIcon/SunnyIcon",
+    "sunny-col": "/components/SunnyCol/Sunnycol"
+  }
+}

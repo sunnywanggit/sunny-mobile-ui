@@ -1,0 +1,23 @@
+.s-rate.data-v-24df1fc3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.s-rate__icon.data-v-24df1fc3 {
+  position: relative;
+  margin-right: 10rpx;
+}
+.s-rate__icon-active.data-v-24df1fc3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.s-rate__text.data-v-24df1fc3 {
+  font-size: 26rpx;
+  margin-left: 10rpx;
+}
+

@@ -1,0 +1,1 @@
+<view class="demo-rate"><sunny-rate vue-id="acb03e80-1" value="{{2.7}}" bind:__l="__l"></sunny-rate></view>

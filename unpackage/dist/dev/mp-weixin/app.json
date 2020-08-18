@@ -1,5 +1,8 @@
 {
   "pages": [
+    "pages/rate/rate",
+    "pages/input/input",
+    "pages/loading/loading",
     "pages/index/index",
     "pages/icon/icon",
     "pages/card/card"
@@ -10,5 +13,6 @@
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap26.json"
 }

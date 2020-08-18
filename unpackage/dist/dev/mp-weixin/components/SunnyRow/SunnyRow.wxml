@@ -1,0 +1,1 @@
+<view class="{{['s-row',classList]}}" style="{{'margin-left:'+(marginLeft)+';'+('margin-right:'+(marginRight)+';')+('background-color:'+(backgroundColor)+';')}}"><slot></slot></view>

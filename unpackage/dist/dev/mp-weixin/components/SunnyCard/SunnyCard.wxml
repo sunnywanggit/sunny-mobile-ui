@@ -1,0 +1,1 @@
+<view class="s-card"><block wx:if="{{label||$slots.header}}"><view class="s-card__header"><text class="s-card__label">{{label}}</text></view></block><view class="s-card__container" style="{{'padding:'+(padding)+';'}}"><slot></slot></view><block wx:if="{{$slots.footer}}"><view class="s-card__footer"></view></block></view>

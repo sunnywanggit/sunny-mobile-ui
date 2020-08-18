@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "SMUI",
+  "usingComponents": {
+    "sunny-loading": "/components/SunnyLoading/SunnyLoading"
+  }
+}
